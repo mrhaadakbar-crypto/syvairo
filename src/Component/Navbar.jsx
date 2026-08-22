@@ -1,0 +1,47 @@
+import React from 'react'
+import { Link } from 'react-router-dom'
+
+const Navbar = () => {
+  return (
+    <>
+
+    
+
+    <div className="flex justify-around">
+        <div className="bg-[#20063B] flex w-[700px] mt-7 p-1  rounded-full ">
+        <Link to='/'> <img className='h-10 ml-14' src="./SYVAIRO_logo.png" alt="SYVAIRO LOGO" /> </Link> 
+ 
+    <ul className='flex mt-2 gap-5 ml-10 text-white' >
+
+      <Link to='/'>
+        <li>Home</li>
+      </Link>
+
+      <Link to='/services'>
+        <li>Services</li>
+        </Link>
+        
+        <Link to='/mediablog'>
+        <li>Media</li>
+        </Link>
+
+      <Link to='/about'>
+        <li>About</li>
+      </Link>  
+        <li>Careers</li>
+        <li>Contact</li>
+    </ul>
+</div>
+    </div>
+
+
+<button className=''>
+  <img className='bg-[#139DBB] hover:shadow-[0-3px_5px_#00eaff] text-center  hover:scale-110 transition-all duration size-12 p-2 rounded-full mx-[1440px] my-[550px] fixed' src="AI-Generate-Sparkle-Box-White (2).svg" alt="AI-Generate" />
+
+</button>
+
+    </>
+  )
+}
+
+export default Navbar
