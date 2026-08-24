@@ -6,6 +6,7 @@ import Services1 from './Component/Services1';
 
 import About from './Pages/About';
 import Media from './Pages/Media';
+import Careers from './Pages/Careers';
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
           <Route element={<Services1/>} path='/services' />
           <Route element={<Media/>} path='/blog' />
           <Route element={<About/>} path='/about' />
+          <Route element={<Careers/>} path='/careers' />
         </Routes>
   </BrowserRouter>
 
