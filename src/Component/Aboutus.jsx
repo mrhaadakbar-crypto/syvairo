@@ -1,10 +1,16 @@
 import React from 'react'
 import Navbar from '../Component/Navbar'
+import Footer from '../Component/Footer'
+
+
 import { LuSettings, } from "react-icons/lu";
 import { LuZap, } from "react-icons/lu";
 import { LuChartNoAxesColumnIncreasing, } from "react-icons/lu";
 import { LuRocket } from "react-icons/lu";
 import { LuGlobe } from "react-icons/lu";
+import { FiMapPin } from "react-icons/fi";
+import { LuShieldCheck } from "react-icons/lu";
+import { LuTrendingUp } from "react-icons/lu";
 const Aboutus = () => {
     return (
 
@@ -120,7 +126,7 @@ const Aboutus = () => {
 
 
 
-            <div className="pt-1 pb-10 bg-gradient-to-r from-[#020107] via-[#130025] to-[#1E0139]">
+            <div className="pt-14 pb-20 bg-gradient-to-r from-[#020107] via-[#130025] to-[#1E0139]">
 
                 <div className="text-center">
                 <h1 className="text-4xl font-bold text-[#51DFE1] mt-5">
@@ -160,6 +166,203 @@ const Aboutus = () => {
 
 
 
+
+
+            <div className=" pt-1 pb-10 bg-gradient-to-r from-[#0C0B26] via-[#0C0018] to-[#190030]">
+  
+
+                <div className="text-center">
+                <h1 className="text-4xl font-bold text-[#51DFE1] mt-5">
+                    Our Delivery Model
+                </h1>
+
+                <p className=' mt-3 text-[#AAAA9C]'>Syvairo operates with a scalable global delivery model designed to support clients efficiently as we grow. This model allows <br />
+                us to expand expertise across regions while maintaining consistent quality and performance.
+                </p>
+            
+                </div>
+
+                <div className="mt-16 pb-10 items-center gap-3 flex justify-around">
+
+                    <div className=" mt-1 ml-20">
+
+
+
+
+
+                       {/* 1icon */}  
+                        
+                        <div className="flex justify-start">
+                        <FiMapPin className='mx-3 flex text-[#1FC2DC] border border-[#31636770] bg-[#041621] size-12 p-2 rounded-lg' />
+                              
+                               
+                              <div className=" text-start ">
+                               <h2 className='text-white'>
+                                    Kuwait
+                                </h2>
+                                
+                               <p className='text-[#AAAAAA] text-sm '>
+                                Business development, client engagement, project coordination, deployment, live <br />
+                                support
+                              </p>
+                             </div>
+
+                         </div>
+
+                            {/* 2icon */}
+
+
+                        <div className=" mt-3 flex  justify-start">
+                        <FiMapPin className='mx-3 flex text-[#1FC2DC] border border-[#31636770] bg-[#041621] size-12 p-2 rounded-lg' />
+                              
+                               
+                              <div className=" text-start ">
+                               <h2 className='text-white'>
+                                 Pakistan
+                                </h2>
+                                
+                               <p className='text-[#AAAAAA] text-sm '>
+                                AI engineering, automation development, web & app development, quality <br />
+                                assurance
+                              </p>
+                             </div>
+
+                         </div>
+
+
+
+
+                            {/* 3icon */}
+
+
+   
+                        <div className="mt-3 flex justify-start">
+                        <FiMapPin className='mx-3 flex text-[#1FC2DC] border border-[#31636770] bg-[#041621] size-12 p-2 rounded-lg' />
+                              
+                               
+                              <div className=" text-start ">
+                               <h2 className='text-white'>
+                                   India
+                                </h2>
+                                
+                               <p className='text-[#AAAAAA] text-sm '>
+                                AI engineering, automation development, web & app development, technical <br />
+                                support
+                              </p>
+                             </div>
+
+                         </div>
+
+                         
+                            {/* 4icon */}
+
+
+   
+                        <div className="mt-3 flex justify-start">
+                        <FiMapPin className='mx-3 flex text-[#1FC2DC] border border-[#31636770] bg-[#041621] size-12 p-2 rounded-lg' />
+                              
+                               
+                              <div className=" text-start ">
+                               <h2 className='text-white'>
+                                   USA (Remote)
+                                </h2>
+                                
+                               <p className='text-[#AAAAAA] text-sm '>
+                               RPA specialists, AI agent builders, solution consultants, designers 
+                                
+                              </p>
+                             </div>
+
+                         </div>
+
+
+
+                          {/* 5icon */}
+
+
+   
+                        <div className="mt-6 flex justify-start">
+                        <FiMapPin className='mx-3 flex text-[#1FC2DC] border border-[#31636770] bg-[#041621] size-12 p-2 rounded-lg' />
+                              
+                               
+                              <div className=" text-start ">
+                               <h2 className='text-white'>
+                                    Global (On-Demand)
+                                </h2>
+                                
+                               <p className='text-[#AAAAAA] text-sm '>
+                               Freelance consultants and specialized automation experts
+                              </p>
+                             </div>
+
+                         </div>
+
+                        
+                    </div>
+                    
+
+                    <div className="">
+                        <img className='w-[500px] h-[300px] border-2 border-[#139DBB] rounded-3xl' src="https://syvairo.vercel.app/delevery.png" alt="Our Delivery Model" />
+                    </div>
+
+                </div>
+
+            </div>
+           
+
+
+            <div className=" pt-1 pb-10 bg-gradient-to-r from-[#050410] via-[#0F001D] to-[#1C0036]">
+
+
+                <div className="text-center">
+                <h1 className="text-4xl font-bold text-[#51DFE1] mt-5">
+                    Our Commitment
+                </h1>
+
+                <p className=' mt-3 text-[#AAAA9C]'>We are committed to building practical, scalable, and secure AI automation solutions that deliver measurable results. Our<br />
+                focus on efficiency, transparency, and long-term value makes Syvairo a reliable partner for businesses beginning or expanding <br />
+                their AI automation journey.
+                </p>
+            
+                </div>
+
+
+
+                <div className="flex gap-16 items-center justify-center">
+           
+                {/* 1 */}
+                <div className="gap-14 mt-10  ">
+
+                    <div className="  bg-[#12121aa2] w-[515px] p-6  rounded-xl border-[3px] border-[#0B5355] hover:shadow-[0-2px_10px_#00eaff] hover:scale-110 transition-all duration  ">
+                        <LuShieldCheck className=' flex mx-[200px] text-[#B7F2F2] border border-[#11BAD1] bg-[#11BAD1] size-12 p-2 rounded-lg' />
+                        <h2 className='text-center text-white text-xl  mt-3 font-semibold'>Secure & Reliable</h2>
+                        <p className='text-white mt-2 text-xs text-center'> Enterprise-grade security with robust infrastructure and compliance-ready AI <br />
+                        automation systems.
+                        </p>
+                    </div>
+                
+                {/* 2 */}
+
+                <div className="mt-10 bg-[#12121ab4] w-[515px] p-6 items-center rounded-xl border-[3px] border-[#0B5355] hover:shadow-[0-2px_10px_#00eaff] hover:scale-110 transition-all duration  ">
+                        <LuTrendingUp  className=' flex mx-[200px] text-[#B7F2F2] border border-[#11BAD1] bg-[#11BAD1] size-12 p-2 rounded-lg' />
+                        <h2 className='text-white text-xl text-center mt-3 font-semibold'>Measurable Growth</h2>
+                        <p className='text-white mt-2 text-xs text-center '> Data-driven solutions that deliver clear ROI, efficiency gains, and performance <br />
+                        improvement.
+                        </p>
+                </div>
+                
+                </div>
+
+                    <div className="">
+                        <img className='w-[550px] h-[370px] border-2 border-[#139DBB] rounded-3xl' src="https://syvairo.vercel.app/ourCommitment.png" alt="ourCommitment" />
+                    </div>
+
+
+
+</div>
+                </div>
+
+ <Footer/>
 
         </>
     )

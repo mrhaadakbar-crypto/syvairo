@@ -3,8 +3,9 @@ import Home from './Pages/Home'
 import {BrowserRouter, Routes, Route } from "react-router-dom";
 import From from './Component/From';
 import Services1 from './Component/Services1';
-import MediaBlog from './Component/MediaBlog';
+
 import About from './Pages/About';
+import Media from './Pages/Media';
 
 const App = () => {
   return (
@@ -17,7 +18,7 @@ const App = () => {
           <Route element={<Home/>} path='/'/>
           <Route element={<From/>} path='/from'/>
           <Route element={<Services1/>} path='/services' />
-          <Route element={<MediaBlog/>} path='/mediablog' />
+          <Route element={<Media/>} path='/blog' />
           <Route element={<About/>} path='/about' />
         </Routes>
   </BrowserRouter>

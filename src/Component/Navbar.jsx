@@ -21,7 +21,7 @@ const Navbar = () => {
         <li>Services</li>
         </Link>
         
-        <Link to='/mediablog'>
+        <Link to='/blog'>
         <li>Media</li>
         </Link>
 
