@@ -18,8 +18,9 @@ import { LuBuilding2 } from "react-icons/lu";
 import { LuShieldCheck } from "react-icons/lu";
 import Ourprocess from '../Component/Ourprocess';
 import Footer from '../Component/Footer';
-
-
+import { BsFillChatSquareTextFill } from "react-icons/bs";
+import { FaMicrophone } from "react-icons/fa";
+import { FaPhoneAlt } from "react-icons/fa";
 
 const Services1 = () => {
   return (
@@ -727,14 +728,63 @@ const Services1 = () => {
 
         </div>
 
-       <Ourprocess/>
-       
+        <Ourprocess />
+
 
       </div>
 
 
 
-      <Footer/>
+
+      <div className="bg-gradient-to-r from-[#020006] via-[#100120] to-[#1B0034]">
+
+        <div className="flex justify-center ">
+          <div className=" flex justify-center items-center gap-1  p-1 border-2 border-[#22D3EE]   rounded-full bg-[#0c182c75]">
+          <FaPhoneAlt className=" ml-2  text-[#22D3EE] text-sm " />
+          <h2 className='text-[#22D3EE] '>Real-Time AI Workforce</h2>
+        </div>
+        </div>
+
+        <div className="pb-20 pt-1">
+
+          <div className="text-center">
+            <h1 className="text-4xl font-bold text-[#51DFE1] mt-5">
+              Meet Our AI Workforce
+            </h1>
+
+            <p className=' mt-3 text-[#AAAA9C]'>Experience the power of agents built by our own team, for our own business</p>
+
+            <h3 className='font-bold mt-3 text-[#51DFE1] text-xl'>Contact Us Through Real AI Systems</h3>
+
+          </div>
+
+
+          {/* 1 */}
+          <div className="gap-14 mt-3 flex justify-center">
+
+            <div className="mt-10 bg-[#12121ab4] w-[515px] p-6 items-center rounded-xl border-[3px] border-[#0B5355] hover:shadow-[0-2px_10px_#00eaff] hover:scale-110 transition-all duration  ">
+              <BsFillChatSquareTextFill className=' flex mx-[200px] text-[#B7F2F2] border border-[#11BAD1] bg-[#11BAD1] size-12 p-2 rounded-lg' />
+              <h2 className='text-center text-white text-xl  mt-3 font-semibold'>Al Chatbot</h2>
+              <h3 className='text-white mt-2 text-xs text-center'>Live & ready to interact</h3>
+            </div>
+
+            {/* 2 */}
+
+            <div className="mt-10 bg-[#12121ab4] w-[515px] p-6 items-center rounded-xl border-[3px] border-[#0B5355] hover:shadow-[0-2px_10px_#00eaff] hover:scale-110 transition-all duration  ">
+              <FaMicrophone className=' flex mx-[200px] text-[#B7F2F2] border border-[#11BAD1] bg-[#11BAD1] size-12 p-2 rounded-lg' />
+              <h2 className='text-white text-xl text-center mt-3 font-semibold'>Voice Al Agent</h2>
+              <p className='text-white mt-2 text-xs text-center '>Live & ready to interact</p>
+            </div>
+
+          </div>
+
+
+        </div>
+
+      </div>
+
+
+      <Footer />
 
 
 

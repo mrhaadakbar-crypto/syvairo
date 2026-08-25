@@ -7,6 +7,7 @@ import Services1 from './Component/Services1';
 import About from './Pages/About';
 import Media from './Pages/Media';
 import Careers from './Pages/Careers';
+import Contact from './Pages/Contact';
 
 const App = () => {
   return (
@@ -22,6 +23,7 @@ const App = () => {
           <Route element={<Media/>} path='/blog' />
           <Route element={<About/>} path='/about' />
           <Route element={<Careers/>} path='/careers' />
+          <Route element={<Contact/>} path='/contact' />
         </Routes>
   </BrowserRouter>
 

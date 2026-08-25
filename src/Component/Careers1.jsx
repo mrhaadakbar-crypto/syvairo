@@ -1,5 +1,4 @@
 import React from 'react'
-import { FiMapPin } from "react-icons/fi";
 import { TbSettingsAutomation } from "react-icons/tb";
 import { RiRobot2Line } from "react-icons/ri";
 import { LuLaptop } from "react-icons/lu";
@@ -160,6 +159,7 @@ const Careers1 = () => {
                     </div>
 
                 </div>
+                nn
 
             </div>
 
@@ -386,10 +386,10 @@ const Careers1 = () => {
                         <h2 className='text-5xl mt-5 font-semibold  text-[#13D2D4]'>
                             Work Your Way
                         </h2>
-                        <h3 className='text-[#9AAA9B] mt-5'>We prefer remote-first work, but hybrid and onsite options are always <br />
+                        <p className='text-[#9AAA9B] mt-5'>We prefer remote-first work, but hybrid and onsite options are always <br />
                             welcome. Short-term projects or long-term roles — we give you the <br />
                             freedom to work the way that lets you shine.
-                        </h3>
+                        </p>
 
 
                     </div>
@@ -506,8 +506,8 @@ const Careers1 = () => {
 
 
                 <div className="pt-10 flex justify-center ">
-                    <div className=" flex justify-center gap-1  p-1 border-2 border-[#22D3EE] w-[150px]  rounded-full bg-[#0c182c75]">
-                        <h2 className='text-[#22D3EE] text-center'>Careers at Syvairo</h2>
+                    <div className=" flex justify-center gap-1  p-1 border-2 border-[#22D3EE] w-[90px]  rounded-full bg-[#0c182c75]">
+                        <h2 className='text-[#22D3EE] text-center'>Join Us</h2>
                     </div>
                 </div>
 
@@ -517,14 +517,14 @@ const Careers1 = () => {
 
                     <div className="mt-1">
                         <h2 className='text-5xl mt-5 font-semibold  text-[#13D2D4]'>
-                            Join Syvairo
+                            Redy to Make an Impact?
                         </h2>
-                        <h3 className='text-white mt-5'>We build AI agents and automation solutions that transform businesses <br />
-                            — and we value passion over degrees.
-                        </h3>
 
-                        <h3 className='text-white mt-5'>Join us to create innovative solutions that shape the future of AI.<br />
-                            Be part of a team that values creativity, impact, and growth.
+
+                        <h3 className='text-white mt-5'>Join Syvairo and help build AI solutions that transform businesses.<br />
+                            Be part of a team that values creativity, impact, and innovation. <br />
+                            Enjoy flexible work options, growth opportunities, and cutting-edge <br />
+                            projects.
                         </h3>
 
 
