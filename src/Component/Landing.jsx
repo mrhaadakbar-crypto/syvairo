@@ -17,7 +17,7 @@ const Landing = () => {
 
                 </div>
 
-                <div className="mx-[610px] my-4 border-2 border-[#22D3EE] w-[310px] p-1 rounded-full bg-[#0c182c75]">
+                <div className="mx-auto my-4 border-2 border-[#22D3EE] w-[310px] p-1 rounded-full bg-[#0c182c75]">
                     <h2 className='text-[#22D3EE] mx-2'>The Story Behind SYVAIRO - Watch Now</h2>
                 </div>
 

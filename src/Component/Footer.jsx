@@ -8,7 +8,7 @@ const Footer = () => {
 
       <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
 
-        {/* Logo + About */}
+  
         <div>
           <img
             src="SYVAIRO_logo.png"
@@ -30,51 +30,51 @@ const Footer = () => {
         </div>
 
 
-        {/* Quick Links */}
+       
         <div>
           <h2 className="text-[14px] font-semibold mb-4">
             Quick Links
           </h2>
 
           <div className="flex flex-col gap-2 text-[13px] text-gray-300">
-            <a href="#" className="hover:text-[#22D3EE]">Home</a>
-            <a href="#" className="hover:text-[#22D3EE]">Services</a>
-            <a href="#" className="hover:text-[#22D3EE]">Media</a>
-            <a href="#" className="hover:text-[#22D3EE]">About</a>
-            <a href="#" className="hover:text-[#22D3EE]">Careers</a>
-            <a href="#" className="hover:text-[#22D3EE]">Contact</a>
+            <li>Home</li>
+            <li>Services</li>
+            <li>Media</li>
+            <li>About</li>
+            <li>Careers</li>
+            <li>Contact</li>
           </div>
         </div>
 
 
-        {/* Legal */}
+      
         <div>
           <h2 className="text-[14px] font-semibold mb-4">
             Legal
           </h2>
 
           <div className="flex flex-col gap-2 text-[13px] text-gray-300">
-            <a href="#" className="hover:text-[#22D3EE]">
+            <a href="#">
               Privacy Policy
             </a>
 
-            <a href="#" className="hover:text-[#22D3EE]">
+            <a href="#">
               Terms of Service
             </a>
 
-            <a href="#" className="hover:text-[#22D3EE]">
+            <a href="#">
               Cookie Policy
             </a>
 
-            <a href="#" className="hover:text-[#22D3EE]">
+            <a href="#">
               FAQ
             </a>
           </div>
         </div>
 
 
-        {/* Contact */}
-        <div>
+   
+        <div className=''>
           <h2 className="text-[14px] font-semibold mb-4">
             Contact
           </h2>
@@ -94,10 +94,8 @@ const Footer = () => {
 
       </div>
 
-
-      {/* Bottom Line */}
-      <div className="border-t border-gray-700 mt-10 pt-7 flex flex-col md:flex-row items-center justify-between gap-4">
-
+        <hr className='text-[#2F2F2F] mt-10'/>
+        <div className="  pt-7 flex  justify-between">
         <p className="text-[11px] text-gray-300">
           © 2025 Syvairo. All Rights Reserved.
         </p>
@@ -109,7 +107,7 @@ const Footer = () => {
           </span>
         </p>
 
-      </div>
+</div>
  </div>
   
   );

@@ -12,7 +12,7 @@ const Herosection = () => {
   return (
     <>
       <div className="pt-10">
-        <button className="ml-[650px] w-[200px] rounded-full p-3 border-2 border-[#22D3EE] text-[#22D3EE] flex items-center justify-center gap-2">
+        <button className="mx-auto w-[200px] rounded-full p-3 border-2 border-[#22D3EE] text-[#22D3EE] flex items-center justify-center gap-2">
           <RiBuildingLine />
           <h3>Business Solutions</h3>
         </button>
@@ -28,8 +28,8 @@ const Herosection = () => {
       </div>
 
 
-      <div className="ml-60 mt-20 ">
-        <img className='rounded-2xl w-[1000px] h-[900px]mx-auto shadow-[0-2px_10px_#00eaff] hover:shadow-[0-10px_20px_#00eaff] text-center  hover:scale-110 transition-all duration' src="https://syvairo.vercel.app/dashboard.png" alt="dashboard img" />
+      <div className="mx-auto mt-20 ">
+        <img className='rounded-2xl w-[1000px] h-[600px] mx-auto shadow-[0-2px_10px_#00eaff] hover:shadow-[0-10px_20px_#00eaff] text-center  hover:scale-110 transition-all duration' src="https://syvairo.vercel.app/dashboard.png" alt="dashboard img" />
       </div>
 
 

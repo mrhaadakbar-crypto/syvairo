@@ -1,17 +1,12 @@
 import React from 'react'
-import { BsOpenai } from "react-icons/bs";
-import { FaAws } from "react-icons/fa";
-import { SiZapier } from "react-icons/si";
-import { SiUipath } from "react-icons/si";
-import { SiN8N } from "react-icons/si";
 
 
 const Clienttrust = () => {
   return (
     <>
 <div className="pt-20">
-            <div className="text-center mx-[650px]  border-2 border-[#22D3EE] w-[200px] p-1 rounded-full bg-[#0c182c75]">
-                <h2 className='text-[#22D3EE] '>🤖 AI Powered Solutions</h2>
+            <div className=" mx-auto  border-2 border-[#22D3EE] w-[200px] p-1 rounded-full bg-[#0c182c75]">
+                <h2 className='text-[#22D3EE] text-center'>🤖 AI Powered Solutions</h2>
             </div>
 </div>
 
@@ -27,20 +22,7 @@ const Clienttrust = () => {
   <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-5 max-w-[1110px] mx-auto">
 
     {/* 1 */}
-    <div className="
-      h-[135px]
-      flex flex-col
-      items-center
-      justify-center
-      text-center
-      rounded-xl
-      border border-[#176475]
-      bg-[#171024]
-      hover:shadow-[0_0_15px_#00eaff]
-      hover:scale-105
-      transition-all
-      duration-300
-    ">
+    <div className="h-[135px] flex flex-col items-center justify-center text-center rounded-xl border border-[#176475] bg-[#171024] hover:shadow-[0_0_15px_#00eaff] hover:scale-105 transition-all duration-300 ">
       <h2 className="text-[#00CED1] font-bold text-[28px] leading-none">
         15+
       </h2>
@@ -52,20 +34,7 @@ const Clienttrust = () => {
 
 
     {/* 2 */}
-    <div className="
-      h-[135px]
-      flex flex-col
-      items-center
-      justify-center
-      text-center
-      rounded-xl
-      border border-[#176475]
-      bg-[#171024]
-      hover:shadow-[0_0_15px_#00eaff]
-      hover:scale-105
-      transition-all
-      duration-300
-    ">
+    <div className="  h-[135px] flex flex-col items-center  justify-center text-center  rounded-xl  border border-[#176475]  bg-[#171024]  hover:shadow-[0_0_15px_#00eaff] hover:scale-105  transition-all duration-300 ">
       <h2 className="text-[#00CED1] font-bold text-[28px] leading-none">
         15+
       </h2>
@@ -77,20 +46,7 @@ const Clienttrust = () => {
 
 
     {/* 3 */}
-    <div className="
-      h-[135px]
-      flex flex-col
-      items-center
-      justify-center
-      text-center
-      rounded-xl
-      border border-[#176475]
-      bg-[#171024]
-      hover:shadow-[0_0_15px_#00eaff]
-      hover:scale-105
-      transition-all
-      duration-300
-    ">
+    <div className="h-[135px] flex flex-col items-center justify-center text-center rounded-xl border border-[#176475] bg-[#171024] hover:shadow-[0_0_15px_#00eaff] hover:scale-105 transition-all duration-300 ">
       <h2 className="text-[#00CED1] font-bold text-[28px] leading-none">
         22+
       </h2>

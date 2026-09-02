@@ -17,7 +17,7 @@ const Whychoose = () => {
         <>
 
             <div className="pt-10">
-                <button className="ml-[650px] w-[200px] rounded-full p-3 border-2 border-[#22D3EE] text-[#22D3EE] flex items-center justify-center gap-2">
+                <button className="mx-auto w-[200px] rounded-full p-3 border-2 border-[#22D3EE] text-[#22D3EE] flex items-center justify-center gap-2">
                     <IoIosStar className='text-[#FFC83D]' />
                     <h3>Business Solutions</h3>
                 </button>

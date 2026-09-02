@@ -42,7 +42,7 @@ const Navbar = () => {
 
 
 <button className=''>
-  <img className='bg-[#139DBB] hover:shadow-[0-3px_5px_#00eaff] text-center  hover:scale-110 transition-all duration size-12 p-2 rounded-full mx-[1440px] my-[550px] fixed' src="AI-Generate-Sparkle-Box-White (2).svg" alt="AI-Generate" />
+  <img className='bg-[#139DBB] hover:shadow-[0-3px_5px_#00eaff] text-center  hover:scale-110 transition-all duration size-12 p-2 rounded-full fixed right-3 bottom-5 ' src="AI-Generate-Sparkle-Box-White (2).svg" alt="AI-Generate" />
 
 </button>
 
